@@ -1,0 +1,105 @@
+.layer2{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows:repeat(3,1fr) ;
+  margin: 4rem;
+}
+
+.l2-row-photo{
+  background-color: black;
+  grid-column: 1/ span 2;
+  grid-row: 1/ span 2; ;
+  background-image: url("./photos/zohar-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
+  height: 90vh;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.logo{
+  background-image: url("./photos/zohar-logo.png");
+  height: 99vh;
+  background-size: 30vh;
+  background-repeat: no-repeat;
+  margin: 2vw;
+}
+
+.l2-row-bottom{
+  grid-row: 3;
+  grid-column: 1/ span 4;
+  
+}
+.layer2-divider{
+  color:#F24452;
+  border-top: 5px solid #F24452;
+  width: 75vw;
+  float:left;
+  
+ 
+}
+.layer2-more{
+  color:#F24452;
+  font-family: 'Archivo Black', sans-serif;
+  
+}
+.l2-row1-2-span{
+  grid-row: span 2;
+  grid-column: span 2;
+  font-family: 'Hind', sans-serif;; 
+  font-size: 1.2vw;
+  padding-inline: 2vw;
+
+}
+.title-layer2{
+  color:#F24452;
+  font-size: 4.5vw;
+  font-family: 'Archivo Black', sans-serif;
+  line-height: 0.95;
+  margin: 0;
+  padding-bottom: 2vh;
+}
+.layer2-link{
+  text-decoration: none; 
+  color:#F24452;
+}
+@media only screen and (max-width: 600px) {
+
+  .layer2{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows:repeat(3,1fr) ;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  .l2-row-photo{
+    background-color: black;
+    grid-row: 1;
+    background-image: url("./photos/zohar-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 100vw;
+    height: 30vh;
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  .l2-row1-2-span{
+    grid-row:  2;
+    
+    font-family: 'Hind', sans-serif;; 
+    font-size: 5vw;
+    padding-inline: 2vw;
+  
+  }
+  .title-layer2{
+    color:#F24452;
+    font-size: 15vw;
+    font-family: 'Archivo Black', sans-serif;
+    line-height: 0.95;
+    margin: 0;
+    padding-bottom: 2vh;
+  }
+
+}

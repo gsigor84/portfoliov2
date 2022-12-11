@@ -1,0 +1,65 @@
+
+.grid-home{
+  display: grid;
+grid-template-rows: 0.8fr 0.2fr;
+
+}
+.home{
+margin-top: 25vh;
+width: 100hw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.text1 {
+  background-image: url('./photos/abs-back.jpg');
+  background-position: 50% 50%;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 18vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+
+.slogan{
+
+width: 25vw;
+border: 0.1vw solid black;
+padding: 0.5rem;
+grid-row: 2;
+color: black;
+
+
+}
+@media only screen and (max-width: 600px) {
+  
+  .text1 {
+    background-image: url('./photos/abs-back.jpg');
+    background-size: 95vh;
+    background-position: 50% 50%;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 32vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    writing-mode: vertical-rl;
+text-orientation: mixed;
+
+  }
+  .home{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+  .slogan{
+display: none;
+    
+    
+    }
+  
+}

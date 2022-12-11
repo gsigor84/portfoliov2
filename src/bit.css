@@ -1,0 +1,17 @@
+.bit-text{
+  color: #F24452;
+  font-family: 'Anton', sans-serif;
+  font-size: 1vw;
+  padding-block: 1rem;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  
+}
+
+.bit-number{
+  color: #261E14;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8vw;
+  padding-inline: 0.5vw;
+}
