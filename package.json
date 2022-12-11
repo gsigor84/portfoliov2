@@ -6,7 +6,6 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@material/react-material-icon": "^0.15.0",
     "@mdi/font": "^7.0.96",
     "@mdi/js": "^7.0.96",
     "@mdi/react": "^1.6.1",
